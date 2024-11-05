@@ -9,7 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository
-                git 'https://github.com/anirudh-2704/Jenkinfiles.git'
+                git branch : 'main', url:'https://github.com/anirudh-2704/Jenkinfiles.git'
             }
         }
 
